@@ -40,10 +40,10 @@ So far Inpage.js has been tested and works great on IE 7/8/9/10/11, Chrome, and 
 
 
 ```
-<div id='submenu_wrapper'>
-	<nav id="submenu">
-		<ul id="submenulist" ></ul>
-    </nav>
+`<div id='submenu_wrapper'>
+	`<nav id="submenu">
+		`<ul id="submenulist" ></ul>
+    `</nav>
 </div>```
 
 
