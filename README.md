@@ -35,7 +35,7 @@ So far Inpage.js has been tested and works great on IE 7/8/9/10/11, Chrome, and 
 <h2>How do I use Inpage.js?</h2>
 <div>
 <p>Very simply.  First just include the script file as shown:</p>
-<p>`<script src="/js/inpage.js"></script>`</p>
+`<script src="/js/inpage.js"></script>`
 <p>Then create the wrappers for your menu as shown below.  You can place them anywhere on your page and can style them however you want with CSS (horizontal, vertical, etc.).  Just <strong>don't change the ID's of the elements shown below</strong></p>
 <p>
 ```html
@@ -44,7 +44,7 @@ So far Inpage.js has been tested and works great on IE 7/8/9/10/11, Chrome, and 
 		<ul id="submenulist" ></ul>
     </nav>
 </div>
-```html
+html```
 </p>
 <p>You may have observed that the "submenulist" UL element is empty.  It will be filled automatically by inpage.js when the page loads with links to any elements on the page with a "data-inpage" attribute.  Here's an example of a heading that has the tag:</p>
 <p>`<h1 data-inpage="FAQ">Frequently asked questions</h1>`</p>
